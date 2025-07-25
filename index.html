@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vathani Builders - Quality Construction Since 2007</title>
+    <meta name="description" content="Vathani Builders - Crafting dream homes and commercial spaces in Chennai since 2007 with elegance and precision.">
+    <meta name="keywords" content="construction, builders, Chennai, residential, commercial, remodeling, interior design, Vathani Builders">
+    <meta name="author" content="Hatten Technologies">
+    <title>Vathani Builders - Elite Construction with Charm</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -17,43 +21,43 @@
 </head>
 <body>
     <!-- Header -->
-    <header id="header">
-        <nav class="navbar">
+    <header id="header" role="banner">
+        <nav class="navbar" aria-label="Main navigation">
             <div class="nav-container">
                 <div class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="fas fa-home" aria-hidden="true"></i>
                     </div>
                     <div class="logo-text">
-                        <h2>VATHANI</h2>
-                        <span>BUILDERS</span>
+                        <h2>Vathani Builders</h2>
+                        <span>Since 2007</span>
                     </div>
                 </div>
                 <div class="nav-menu" id="nav-menu">
-                    <ul class="nav-list">
-                        <li><a href="#home" class="nav-link">Home</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#services" class="nav-link">Services</a></li>
-                        <li><a href="#ongoing-projects" class="nav-link">Ongoing</a></li>
-                        <li class="nav-dropdown">
-                            <a href="#completed-projects" class="nav-link">
-                                Completed Projects 
-                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    <ul class="nav-list" role="menubar">
+                        <li role="none"><a href="#home" class="nav-link" role="menuitem">Home</a></li>
+                        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                        <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
+                        <li role="none"><a href="#process" class="nav-link" role="menuitem">Our Process</a></li>
+                        <li role="none"><a href="#team" class="nav-link" role="menuitem">Team</a></li>
+                        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                        <li class="nav-dropdown" role="none">
+                            <a href="#gallery" class="nav-link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                                Gallery 
+                                <i class="fas fa-chevron-down dropdown-arrow" aria-hidden="true"></i>
                             </a>
-                            <div class="nav-dropdown-content">
-                                <a href="#completed-projects">View Gallery</a>
-                                <a href="all-projects.html" target="_blank">All Projects</a>
-                                <a href="#completed-projects" data-filter="residential">Residential</a>
-                                <a href="#completed-projects" data-filter="commercial">Commercial</a>
-                                <a href="#completed-projects" data-filter="renovation">Renovation</a>
+                            <div class="nav-dropdown-content" role="menu">
+                                <a href="#gallery" role="menuitem">All Images</a>
+                                <a href="#gallery" data-filter="exterior" role="menuitem">Exterior</a>
+                                <a href="#gallery" data-filter="interior" role="menuitem">Interior</a>
+                                <a href="#gallery" data-filter="commercial" role="menuitem">Commercial</a>
                             </div>
                         </li>
-                        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                        <li role="none"><a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a></li>
+                        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
                     </ul>
                 </div>
-                <div class="hamburger" id="hamburger">
+                <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" aria-controls="nav-menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -63,1030 +67,501 @@
     </header>
 
     <!-- Hero Section with Video Background -->
-    <section id="home" class="hero">
-        <video class="hero-video" autoplay muted loop playsinline>
-            <source src="https://vathani-builders.s3.amazonaws.com/hero-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+    <section id="home" class="hero" role="region" aria-label="Hero section">
+        <video class="hero-video" autoplay muted loop playsinline aria-hidden="true" poster="interior/WhatsApp Image 2025-07-23 at 6.45.23 PM.jpeg">
+            <source src="https://vathani-builders.s3.amazonaws.com/2949519-uhd_2560_1440_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag. Please view our projects to see our work in action.
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-text">
-                <h1 class="hero-title">Vathani Builders</h1>
-                <p class="hero-subtitle">Crafting Your Dreams with Quality and Precision Since 2007</p>
+                <h1 class="hero-title">Welcome to Vathani Builders</h1>
+                <p class="hero-subtitle">Crafting Your Dreams with Love & Precision Since 2007</p>
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <span class="stat-number">18+</span>
-                        <span class="stat-label">Years Experience</span>
+                        <span class="stat-number" data-count="18">0</span>
+                        <span class="stat-label">Years of Excellence</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">150+</span>
+                        <span class="stat-number" data-count="150">0</span>
                         <span class="stat-label">Projects Completed</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">100%</span>
+                        <span class="stat-number" data-count="100">0</span>
                         <span class="stat-label">Client Satisfaction</span>
                     </div>
                 </div>
                 <div class="hero-buttons">
-                    <button class="btn btn-primary">View Projects</button>
-                    <button class="btn btn-secondary">Get Quote</button>
+                    <a href="#projects" class="btn btn-primary" role="button">Explore Projects</a>
+                    <a href="#contact" class="btn btn-secondary" role="button">Get a Quote</a>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
+        <div class="scroll-indicator" aria-hidden="true">
             <div class="scroll-arrow"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about" role="region" aria-label="About section">
         <div class="container">
             <div class="section-header">
-                <h2>About Vathani Builders</h2>
-                <p>Your trusted partner in construction excellence</p>
+                <h2>About Us</h2>
+                <p>Building dreams with a touch of charm</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>We're a Full Service Design/Build Firm</h3>
-                    <p>Since 2007, Vathani Builders has specialized in premier construction and remodeling. Our dedicated, highly trained team of craftsmen is attuned to the smallest details of your project from foundation to finishes.</p>
+                    <h3>Who We Are</h3>
+                    <p>Since 2007, Vathani Builders has been Chennai's trusted name in construction, blending quality craftsmanship with a passion for creating spaces that inspire. Our team is dedicated to turning your vision into reality with elegance and warmth.</p>
                     <div class="about-features">
                         <div class="feature-item">
-                            <i class="fas fa-hammer"></i>
+                            <i class="fas fa-heart" aria-hidden="true"></i>
                             <div>
-                                <h4>Custom Home Builders</h4>
-                                <p>Residential construction tailored to your lifestyle</p>
+                                <h4>Client-Centric Approach</h4>
+                                <p>Your vision, our mission</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-building"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
                             <div>
-                                <h4>Commercial Construction</h4>
-                                <p>Professional commercial building solutions</p>
+                                <h4>Premium Quality</h4>
+                                <p>Excellence in every detail</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-tools"></i>
+                            <i class="fas fa-handshake" aria-hidden="true"></i>
                             <div>
-                                <h4>Complete Remodeling</h4>
-                                <p>Transform your existing space with expertise</p>
+                                <h4>Trusted Expertise</h4>
+                                <p>18+ years of industry experience</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="interior/WhatsApp Image 2025-07-23 at 6.45.23 PM.jpeg" alt="Vathani Builders Team" class="about-img" loading="lazy">
+                    <img src="interior/WhatsApp Image 2025-07-23 at 6.45.23 PM.jpeg" alt="Vathani Builders team working on a project" class="about-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process Section -->
+    <section id="process" class="process" role="region" aria-label="Our process section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Process</h2>
+                <p>How we bring your dreams to life</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-icon">
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                    </div>
+                    <h3>01. Consultation</h3>
+                    <p>We listen to your ideas and create a tailored plan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon">
+                        <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+                    </div>
+                    <h3>02. Design & Planning</h3>
+                    <p>Our architects craft detailed blueprints for your vision.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon">
+                        <i class="fas fa-hammer" aria-hidden="true"></i>
+                    </div>
+                    <h3>03. Construction</h3>
+                    <p>Expert craftsmanship brings your project to life.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                    </div>
+                    <h3>04. Completion</h3>
+                    <p>We deliver your dream space with a final walkthrough.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="services" role="region" aria-label="Services section">
         <div class="container">
             <div class="section-header">
                 <h2>Our Services</h2>
-                <p>Comprehensive construction solutions for all your needs</p>
+                <p>Comprehensive solutions with a touch of elegance</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="fas fa-home" aria-hidden="true"></i>
                     </div>
                     <h3>Residential Construction</h3>
-                    <p>Custom homes designed and built to your specifications with quality materials and craftsmanship.</p>
+                    <p>Custom homes designed with love and precision.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-building"></i>
+                        <i class="fas fa-building" aria-hidden="true"></i>
                     </div>
                     <h3>Commercial Projects</h3>
-                    <p>Professional commercial construction services for offices, retail spaces, and industrial facilities.</p>
+                    <p>Professional spaces built for success.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-paint-roller"></i>
+                        <i class="fas fa-paint-brush" aria-hidden="true"></i>
                     </div>
                     <h3>Interior Design</h3>
-                    <p>Complete interior design and finishing services to bring your vision to life.</p>
+                    <p>Charming interiors that reflect your style.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-wrench"></i>
+                        <i class="fas fa-tools" aria-hidden="true"></i>
                     </div>
                     <h3>Renovation</h3>
-                    <p>Transform existing spaces with our comprehensive renovation and remodeling services.</p>
+                    <p>Transform spaces with creativity and care.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-drafting-compass"></i>
+                        <i class="fas fa-drafting-compass" aria-hidden="true"></i>
                     </div>
                     <h3>Architectural Planning</h3>
-                    <p>Professional architectural planning and design services for your construction project.</p>
+                    <p>Innovative designs for your dream project.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-project-diagram"></i>
+                        <i class="fas fa-project-diagram" aria-hidden="true"></i>
                     </div>
                     <h3>Project Management</h3>
-                    <p>End-to-end management ensuring your project stays on schedule, within budget, and meets quality standards.</p>
+                    <p>Seamless execution from start to finish.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Ongoing Projects Section -->
-    <section id="ongoing-projects" class="projects">
+    <!-- Team Section -->
+    <section id="team" class="team" role="region" aria-label="Team section">
         <div class="container">
             <div class="section-header">
-                <h2>Ongoing Projects</h2>
-                <p>Current construction projects in progress</p>
+                <h2>Meet Our Team</h2>
+                <p>The heart behind our craftsmanship</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="team/leader1.jpg" alt="John Doe, Lead Architect" class="team-img" loading="lazy">
+                    <h3>John Doe</h3>
+                    <p class="team-role">Lead Architect</p>
+                    <p>With 20 years of experience, John designs spaces that inspire.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="John's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="John's Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="team/manager1.jpg" alt="Jane Smith, Project Manager" class="team-img" loading="lazy">
+                    <h3>Jane Smith</h3>
+                    <p class="team-role">Project Manager</p>
+                    <p>Jane ensures every project runs smoothly and on time.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="Jane's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Jane's Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="team/designer1.jpg" alt="Emily Brown, Interior Designer" class="team-img" loading="lazy">
+                    <h3>Emily Brown</h3>
+                    <p class="team-role">Interior Designer</p>
+                    <p>Emily brings charm and elegance to every interior space.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="Emily's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Emily's Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" role="region" aria-label="Projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Projects</h2>
+                <p>Explore our portfolio of excellence</p>
+            </div>
+            <div class="filter-tabs" role="tablist">
+                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+                <button class="filter-btn" data-filter="ongoing" role="tab" aria-selected="false">Ongoing</button>
+                <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">Completed</button>
             </div>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card" data-category="ongoing">
                     <div class="project-image">
-                        <img src="ongoing_projects/ongoing1.jpeg" alt="Luxury Villa Project" class="project-img" loading="lazy">
+                        <img src="ongoing_projects/ongoing1.jpeg" alt="Luxury 4BHK villa under construction in Chennai" class="project-img" loading="lazy">
                         <div class="project-overlay">
-                            <div class="project-status">10% Complete</div>
+                            <div class="project-status">20% Complete</div>
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Villa Project</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</p>
-                        <p>An elegant 4BHK villa designed with state-of-the-art features, spacious interiors, and high-end finishes for premium living.</p>
+                        <h3>Luxury Villa</h3>
+                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chennai, Tamil Nadu</p>
+                        <p>A stunning 4BHK villa with modern amenities.</p>
                         <div class="project-progress">
                             <div class="progress-bar">
-                                <div class="progress-fill" style="width: 10%"></div>
+                                <div class="progress-fill" style="width: 20%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-category="ongoing">
                     <div class="project-image">
-                        <img src="ongoing_projects/ongoing2.jpeg" alt="Commercial Complex Project" class="project-img" loading="lazy">
+                        <img src="ongoing_projects/ongoing2.jpeg" alt="4BHK duplex under construction in Chengalpattu" class="project-img" loading="lazy">
                         <div class="project-overlay">
-                            <div class="project-status">50% Complete</div>
+                            <div class="project-status">60% Complete</div>
                         </div>
                     </div>
                     <div class="project-content">
                         <h3>4BHK Duplex</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Chengalpattu, Tamil Nadu</p>
-                        <p>Stylish 4BHK duplex offering spacious two-level living, private balconies, premium finishes, and comfort for modern family lifestyles.</p>
+                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chengalpattu, Tamil Nadu</p>
+                        <p>Spacious duplex with premium finishes.</p>
                         <div class="project-progress">
                             <div class="progress-bar">
-                                <div class="progress-fill" style="width: 50%"></div>
+                                <div class="progress-fill" style="width: 60%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-category="completed">
                     <div class="project-image">
-                        <img src="ongoing_projects/ongoing3.jpeg" alt="Residential Apartment Project" class="project-img" loading="lazy">
+                        <img src="exterior/Yellow-house.jpg" alt="Modern family home in Mumbai" class="project-img" loading="lazy">
                         <div class="project-overlay">
-                            <div class="project-status">40% Complete</div>
+                            <button class="view-btn" aria-label="View project details">View Details</button>
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>3BHK Independent House</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Chengalpattu, Tamil Nadu</p>
-                        <p>A modern 3BHK independent house offering spacious living, private outdoor areas, and essential comforts for a contemporary lifestyle.</p>
-                        <div class="project-progress">
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 40%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Completed Projects Section -->
-    <section id="completed-projects" class="completed-projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Completed Projects</h2>
-                <p>Our portfolio of successfully completed constructions</p>
-            </div>
-            <div class="filter-tabs">
-                <button class="filter-btn active" data-filter="all">All Projects</button>
-                <button class="filter-btn" data-filter="residential">Residential</button>
-                <button class="filter-btn" data-filter="commercial">Commercial</button>
-                <button class="filter-btn" data-filter="renovation">Renovation</button>
-            </div>
-            <div class="completed-grid">
-                <div class="completed-card" data-category="residential">
-                    <div class="completed-image">
-                        <img src="exterior/Yellow-house.jpg" alt="Modern Family Home" class="completed-img" loading="lazy">
-                        <div class="completed-overlay">
-                            <button class="view-btn">View Details</button>
-                        </div>
-                    </div>
-                    <div class="completed-content">
                         <h3>Modern Family Home</h3>
-                        <p class="completed-location">Mumbai, Maharashtra</p>
-                        <p>3-bedroom family home with contemporary design</p>
+                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, Maharashtra</p>
+                        <p>A cozy 3-bedroom home with contemporary design.</p>
                     </div>
                 </div>
-                <div class="completed-card" data-category="commercial">
-                    <div class="completed-image">
-                        <img src="commercial/6e99bf2c10c4edf24f5a9c40d2cefa10.jpg" alt="Office Building" class="completed-img" loading="lazy">
-                        <div class="completed-overlay">
-                            <button class="view-btn">View Details</button>
+                <div class="project-card" data-category="completed">
+                    <div class="project-image">
+                        <img src="commercial/6e99bf2c10c4edf24f5a2640d2cefa10.jpg" alt="Office building in Chennai" class="project-img" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="view-btn" aria-label="View project details">View Details</button>
                         </div>
                     </div>
-                    <div class="completed-content">
+                    <div class="project-content">
                         <h3>Office Building</h3>
-                        <p class="completed-location">Pune, Maharashtra</p>
-                        <p>5-story commercial office building</p>
-                    </div>
-                </div>
-                <div class="completed-card" data-category="renovation">
-                    <div class="completed-image">
-                        <img src="commercial/uw2.png" alt="Heritage Restoration" class="completed-img" loading="lazy">
-                        <div class="completed-overlay">
-                            <button class="view-btn">View Details</button>
-                        </div>
-                    </div>
-                    <div class="completed-content">
-                        <h3>Heritage Restoration</h3>
-                        <p class="completed-location">Mumbai, Maharashtra</p>
-                        <p>Complete restoration of heritage building</p>
-                    </div>
-                </div>
-                <div class="completed-card" data-category="residential">
-                    <div class="completed-image">
-                        <img src="commercial/uw2.png" alt="Luxury Penthouse" class="completed-img" loading="lazy">
-                        <div class="completed-overlay">
-                            <button class="view-btn">View Details</button>
-                        </div>
-                    </div>
-                    <div class="completed-content">
-                        <h3>Luxury Penthouse</h3>
-                        <p class="completed-location">Mumbai, Maharashtra</p>
-                        <p>Premium penthouse with city views</p>
+                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chennai, Tamil Nadu</p>
+                        <p>Modern commercial space for businesses.</p>
                     </div>
                 </div>
             </div>
             <div class="show-more-container">
-                <a href="all-projects.html" target="_blank" class="btn-show-more">
-                    <i class="fas fa-plus-circle" style="margin-right: 8px;"></i>
-                    Show More Projects (30+)
+                <a href="all-projects.html" target="_blank" class="btn-show-more" role="button">
+                    <i class="fas fa-plus-circle" aria-hidden="true" style="margin-right: 8px;"></i>
+                    More Projects (50+)
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>What Our Clients Say</h2>
-                <p>Reviews from our satisfied customers</p>
-            </div>
-            <div class="testimonials-carousel">
-                <div class="testimonial-card active" data-index="0">
-                    <div class="testimonial-content">
-                        <div class="stars-container">
-                            <div class="star" data-star="1">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="2">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="3">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="4">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="5">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                        </div>
-                        <p class="testimonial-text">"Vathani Builders exceeded our expectations at every turn. The quality of work and attention to detail is exceptional. Our dream home became a reality thanks to their professional team."</p>
-                        <div class="testimonial-author">
-                            <h4>Charles & Punitha Madha</h4>
-                            <span>Mannivakkam, Chengalpattu</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card" data-index="1">
-                    <div class="testimonial-content">
-                        <div class="stars-container">
-                            <div class="star" data-star="1">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="2">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="3">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="4">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="5">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                        </div>
-                        <p class="testimonial-text">"Professional, reliable, and skilled craftsmen. They completed our commercial project on time and within budget. Highly recommend Vathani Builders for any construction needs."</p>
-                        <div class="testimonial-author">
-                            <h4>Uma Mageshwari</h4>
-                            <span>Pallikaranai, Chennai</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card" data-index="2">
-                    <div class="testimonial-content">
-                        <div class="stars-container">
-                            <div class="star" data-star="1">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="2">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="3">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="4">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                            <div class="star" data-star="5">
-                                <i class="fas fa-star"></i>
-                                <div class="star-fill"></div>
-                            </div>
-                        </div>
-                        <p class="testimonial-text">"The renovation work on our home was flawless. The team was courteous, efficient, and delivered exceptional results. We're extremely satisfied with their work."</p>
-                        <div class="testimonial-author">
-                            <h4>George & Latha</h4>
-                            <span>Mannivakkam, Chengalpattu</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-navigation">
-                <button class="nav-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
-                <button class="nav-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
-            </div>
-        </div>
-    </section>
-
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
+    <section id="gallery" class="gallery" role="region" aria-label="Project gallery section">
         <div class="container">
             <div class="section-header">
                 <h2>Project Gallery</h2>
-                <p>Explore our construction excellence through images</p>
+                <p>Discover our craftsmanship through beautiful visuals</p>
             </div>
-            <div class="gallery-filter">
-                <button class="gallery-filter-btn active" data-filter="all">All</button>
-                <button class="gallery-filter-btn" data-filter="exterior">Exterior</button>
-                <button class="gallery-filter-btn" data-filter="interior">Interior</button>
-                <button class="gallery-filter-btn" data-filter="commercial">Commercial</button>
+            <div class="gallery-filter" role="tablist">
+                <button class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                <button class="gallery-filter-btn" data-filter="exterior" role="tab" aria-selected="false">Exterior</button>
+                <button class="gallery-filter-btn" data-filter="interior" role="tab" aria-selected="false">Interior</button>
+                <button class="gallery-filter-btn" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
             </div>
             <div class="moving-gallery-container">
                 <div class="gallery-row row-1">
                     <div class="gallery-item" data-category="exterior">
                         <div class="category-tag">Exterior</div>
                         <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&h=200&fit=crop" alt="Modern House Exterior" class="gallery-img" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&h=200&fit=crop" alt="Modern house exterior" class="gallery-img" loading="lazy">
                             <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
+                                <button class="zoom-btn" aria-label="Zoom image"><i class="fas fa-search-plus" aria-hidden="true"></i></button>
                             </div>
                             <div class="gallery-info">
                                 <h3>Modern House</h3>
-                                <p>Contemporary design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=200&fit=crop" alt="Villa Construction" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Villa Construction</h3>
-                                <p>Luxury development</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=300&h=200&fit=crop" alt="Luxury Homes" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Luxury Homes</h3>
-                                <p>Premium construction</p>
+                                <p>Contemporary elegance</p>
                             </div>
                         </div>
                     </div>
                     <div class="gallery-item" data-category="interior">
                         <div class="category-tag">Interior</div>
                         <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop" alt="Luxury Living Room" class="gallery-img" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop" alt="Luxury living room" class="gallery-img" loading="lazy">
                             <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
+                                <button class="zoom-btn" aria-label="Zoom image"><i class="fas fa-search-plus" aria-hidden="true"></i></button>
                             </div>
                             <div class="gallery-info">
                                 <h3>Luxury Living Room</h3>
-                                <p>Premium finishing</p>
+                                <p>Charming interiors</p>
                             </div>
                         </div>
                     </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=200&fit=crop" alt="Modern Kitchen" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern Kitchen</h3>
-                                <p>Contemporary design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=200&fit=crop" alt="Office Building" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Office Building</h3>
-                                <p>Commercial space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=300&h=200&fit=crop" alt="Modern Architecture" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern Architecture</h3>
-                                <p>Sleek design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=300&h=200&fit=crop" alt="Bathroom Design" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Bathroom Design</h3>
-                                <p>Modern renovation</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Duplicate set for seamless loop -->
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&h=200&fit=crop" alt="Modern House Exterior" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern House</h3>
-                                <p>Contemporary design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=200&fit=crop" alt="Villa Construction" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Villa Construction</h3>
-                                <p>Luxury development</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=300&h=200&fit=crop" alt="Luxury Homes" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Luxury Homes</h3>
-                                <p>Premium construction</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop" alt="Luxury Living Room" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Luxury Living Room</h3>
-                                <p>Premium finishing</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=200&fit=crop" alt="Modern Kitchen" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern Kitchen</h3>
-                                <p>Contemporary design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=200&fit=crop" alt="Office Building" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Office Building</h3>
-                                <p>Commercial space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=300&h=200&fit=crop" alt="Modern Architecture" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern Architecture</h3>
-                                <p>Sleek design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=300&h=200&fit=crop" alt="Bathroom Design" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Bathroom Design</h3>
-                                <p>Modern renovation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-row row-2">
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=300&h=200&fit=crop" alt="Shopping Complex" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Shopping Complex</h3>
-                                <p>Retail construction</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300&h=200&fit=crop" alt="House Exterior" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>House Exterior</h3>
-                                <p>Classic style</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300&h=200&fit=crop" alt="Living Area" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Living Area</h3>
-                                <p>Comfortable space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=300&h=200&fit=crop" alt="Master Bedroom" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Master Bedroom</h3>
-                                <p>Elegant space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=300&h=200&fit=crop" alt="Office Space" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Office Space</h3>
-                                <p>Modern workplace</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300&h=200&fit=crop" alt="Residential Building" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Residential Building</h3>
-                                <p>Quality construction</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=300&h=200&fit=crop" alt="Study Room" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Study Room</h3>
-                                <p>Productive space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=300&h=200&fit=crop" alt="Garden View" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Garden View</h3>
-                                <p>Landscape design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Duplicate set for seamless loop -->
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=300&h=200&fit=crop" alt="Shopping Complex" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Shopping Complex</h3>
-                                <p>Retail construction</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300&h=200&fit=crop" alt="House Exterior" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>House Exterior</h3>
-                                <p>Classic style</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300&h=200&fit=crop" alt="Living Area" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Living Area</h3>
-                                <p>Comfortable space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=300&h=200&fit=crop" alt="Master Bedroom" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Master Bedroom</h3>
-                                <p>Elegant space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="commercial">
-                        <div class="category-tag">Commercial</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=300&h=200&fit=crop" alt="Office Space" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Office Space</h3>
-                                <p>Modern workplace</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300&h=200&fit=crop" alt="Residential Building" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Residential Building</h3>
-                                <p>Quality construction</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=300&h=200&fit=crop" alt="Study Room" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Study Room</h3>
-                                <p>Productive space</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=300&h=200&fit=crop" alt="Garden View" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Garden View</h3>
-                                <p>Landscape design</p>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Add more gallery items as needed -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" role="region" aria-label="Testimonials section">
         <div class="container">
             <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Ready to start your construction project? Contact us today</p>
+                <h2>Client Love</h2>
+                <p>Hear from our happy clients</p>
+            </div>
+            <div class="testimonials-carousel" role="region" aria-label="Testimonials carousel">
+                <div class="testimonial-card active" data-index="0">
+                    <div class="testimonial-content">
+                        <div class="stars-container" aria-label="5 star rating">
+                            <i class="fas fa-star" aria-hidden=" storefront true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-text">"Vathani Builders brought our dream home to life with such care and creativity!"</p>
+                        <div class="testimonial-author">
+                            <h4>Charles & Punitha</h4>
+                            <span>Chennai, Tamil Nadu</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonial cards as needed -->
+            </div>
+            <div class="testimonial-navigation">
+                <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous testimonial"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+                <button class="nav-btn next-btn" id="nextBtn" aria-label="Next testimonial"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" role="region" aria-label="Contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Start your dream project with us</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
+                    <h3>Contact Us</h3>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                         <div>
                             <h4>Address</h4>
-                            <p>No:42, Earikarai street<br>Pallikaranai, Chennai 600100</p>
+                            <p>No:42, Earikarai Street, Pallikaranai, Chennai 600100</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-phone" aria-hidden="true"></i>
                         <div>
                             <h4>Phone</h4>
                             <p>+91 88381 15756</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                         <div>
                             <h4>Email</h4>
                             <p>vathaniinteriors2009@gmail.com</p>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Working Hours</h4>
-                            <p>Mon - Sat: 8:00 AM - 8:00 PM</p>
-                        </div>
-                    </div>
                 </div>
                 <div class="contact-form">
-                    <h3>Send Message</h3>
-                    <div id="successMessage" class="success-message">
-                        Message sent successfully! We'll get back to you soon.
+                    <h3>Send a Message</h3>
+                    <div id="successMessage" class="success-message" role="alert">
+                        Message sent successfully! We'll be in touch soon.
                     </div>
-                    <div id="errorMessage" class="error-message">
-                        Failed to send message. Please try again later.
+                    <div id="errorMessage" class="error-message" role="alert">
+                        Failed to send message. Please try again.
                     </div>
-                    <form id="contactForm">
+                    <form id="contactForm" aria-label="Contact form">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Name">
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Email">
                         </div>
                         <div class="form-group">
-                            <input type="text" id="phone" name="phone" placeholder="Your Phone Number" required>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone" required aria-label="Phone number">
                         </div>
                         <div class="form-group">
-                            <select id="service" name="service" required>
-                                <option value="">-- Select a Service --</option>
-                                <option value="Residential Construction">Residential Construction</option>
-                                <option value="Commercial Construction">Commercial Construction</option>
-                                <option value="Interior Design">Interior Design</option>
-                                <option value="Renovation">Renovation</option>
-                                <option value="Architectural Planning">Architectural Planning</option>
-                                <option value="Project Management">Project Management</option>
-                            </select>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required aria-label="Message"></textarea>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" id="submitBtn" class="btn btn-primary">
-                            <span id="buttonText">Send Message</span>
-                        </button>
+                        <button type="submit" id="submitBtn" class="btn btn-primary" aria-label="Submit form">Send Message</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Image Modal -->
-    <div class="image-modal" id="imageModal">
-        <div class="modal-overlay" onclick="closeModal()">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <button class="close-modal" onclick="closeModal()">×</button>
-                <img id="modalImage" src="" alt="Gallery Image">
-            </div>
-        </div>
-    </div>
-
-    <!-- Location Map Section -->
-    <section id="location" class="location">
-        <div class="container">
-            <div class="section-header">
-                <h2>Find Us</h2>
-                <p>Visit our office or construction sites</p>
-            </div>
-            <div class="location-content">
-                <div class="location-info">
-                    <h3>Our Office Location</h3>
-                    <div class="location-details">
-                        <div class="location-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h4>Main Office</h4>
-                                <p>No:42, Earikarai street<br>Pallikaranai, Chennai 600100</p>
-                            </div>
-                        </div>
-                        <div class="location-item">
-                            <i class="fas fa-directions"></i>
-                            <div>
-                                <h4>Get Directions</h4>
-                                <p>Easy access from all major highways and public transport</p>
-                            </div>
-                        </div>
-                        <div class="location-item">
-                            <i class="fas fa-parking"></i>
-                            <div>
-                                <h4>Parking</h4>
-                                <p>Free parking available for visitors</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="map-container">
-                    <a href="https://maps.app.goo.gl/giVe9VKMm9G4RPVJ9" target="_blank">
-                        <img src="interior/Screenshot 2025-07-17 121758.png" alt="Map Location" style="width:100%; height:auto; border:0; cursor:pointer;" loading="lazy" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
                         <div class="logo-icon">
-                            <i class="fas fa-home"></i>
+                            <i class="fas fa-home" aria-hidden="true"></i>
                         </div>
                         <div class="logo-text">
-                            <h3>VATHANI</h3>
-                            <span>BUILDERS</span>
+                            <h3>Vathani Builders</h3>
+                            <span>Since 2007</span>
                         </div>
                     </div>
-                    <p>Building dreams with quality workmanship, attention to detail, and competitive pricing since 2007.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <p>Building your dreams with elegance and care.</p>
+                    <div class="social-links" aria-label="Social media links">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
-                    <ul>
+                    <ul aria-label="Quick links">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#completed-projects" data-filter="residential">Residential Construction</a></li>
-                        <li><a href="#completed-projects" data-filter="commercial">Commercial Construction</a></li>
-                        <li><a href="#completed-projects" data-filter="commercial">Interior Design</a></li>
-                        <li><a href="#completed-projects" data-filter="renovation">Renovation</a></li>
-                        <li><a href="#completed-projects" data-filter="renovation">Architectural Planning</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
                     <h4>Contact Info</h4>
-                    <div class="footer-contact">
+                    <div class="footer-contact" aria-label="Contact information">
                         <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>No:42, Earikarai street<br>Pallikaranai, Chennai 600100</p>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <p>No:42, Earikarai Street, Pallikaranai, Chennai 600100</p>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
                             <p>+91 88381 15756</p>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
                             <p>vathaniinteriors2009@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2025 Vathani Builders. All rights reserved. | Designed & Developed by Hatten Technologies</p>
+                <p>© 2025 Vathani Builders. All rights reserved. | Designed by Hatten Technologies</p>
             </div>
         </div>
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/918838115756" class="whatsapp-float" id="whatsapp-button" target="_blank">
-        <i class="fab fa-whatsapp"></i>
+    <a href="https://wa.me/918838115756" class="whatsapp-float" id="whatsapp-button" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
 
     <!-- JavaScript -->
