@@ -3,61 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vathani Builders - Crafting luxurious homes and commercial spaces in Chennai since 2007 with unmatched elegance.">
-    <meta name="keywords" content="luxury construction, builders, Chennai, residential, commercial, interior design, Vathani Builders">
+    <meta name="description" content="Vathani Builders - Crafting luxurious homes in Chennai since 2007.">
+    <meta name="keywords" content="luxury construction, builders, Chennai, residential, Vathani Builders">
     <meta name="author" content="Hatten Technologies">
-    <title>Vathani Builders - Super Luxury Construction</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vathani Builders - Luxury Construction</title>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Caveat:wght@400;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
        (function(){
-          emailjs.init({
-            publicKey: "F4A1eNbl8KcCBgMdE",
-          });
+          emailjs.init({ publicKey: "F4A1eNbl8KcCBgMdE" });
        })();
-    </script>
-    <!-- Tawk.to Live Chat -->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/YOUR_PROPERTY_ID/YOUR_WIDGET_ID';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-    <!-- Schema.org Markup -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Vathani Builders",
-        "description": "Luxury construction and interior design services in Chennai since 2007.",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "No:42, Earikarai Street, Pallikaranai",
-            "addressLocality": "Chennai",
-            "addressRegion": "Tamil Nadu",
-            "postalCode": "600100",
-            "addressCountry": "IN"
-        },
-        "telephone": "+918838115756",
-        "email": "vathaniinteriors2009@gmail.com",
-        "url": "https://vathanibuilders.com",
-        "image": "https://vathani-builders.s3.amazonaws.com/logo.png",
-        "openingHours": "Mo-Fr 09:00-18:00"
-    }
     </script>
 </head>
 <body>
-    <!-- Dark Mode Toggle -->
+    <!-- Theme Toggle -->
     <button class="theme-toggle" aria-label="Toggle dark mode">
         <i class="fas fa-moon"></i>
         <i class="fas fa-sun" style="display: none;"></i>
@@ -81,22 +45,7 @@
                         <li role="none"><a href="#home" class="nav-link" role="menuitem">Home</a></li>
                         <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
                         <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
-                        <li role="none"><a href="#process" class="nav-link" role="menuitem">Our Process</a></li>
-                        <li role="none"><a href="#team" class="nav-link" role="menuitem">Team</a></li>
                         <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
-                        <li class="nav-dropdown" role="none">
-                            <a href="#gallery" class="nav-link" role="menuitem" aria-haspopup="true" aria-expanded="false">
-                                Gallery 
-                                <i class="fas fa-chevron-down dropdown-arrow" aria-hidden="true"></i>
-                            </a>
-                            <div class="nav-dropdown-content" role="menu">
-                                <a href="#gallery" role="menuitem">All Images</a>
-                                <a href="#gallery" data-filter="exterior" role="menuitem">Exterior</a>
-                                <a href="#gallery" data-filter="interior" role="menuitem">Interior</a>
-                                <a href="#gallery" data-filter="commercial" role="menuitem">Commercial</a>
-                            </div>
-                        </li>
-                        <li role="none"><a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a></li>
                         <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
                     </ul>
                 </div>
@@ -109,39 +58,20 @@
         </nav>
     </header>
 
-    <!-- Hero Section with Video Background -->
+    <!-- Hero Section with Video -->
     <section id="home" class="hero" role="region" aria-label="Hero section">
-        <video class="hero-video" autoplay muted loop playsinline aria-hidden="true" poster="interior/WhatsApp Image 2025-07-23 at 6.45.23 PM.webp">
+        <video class="hero-video" autoplay muted loop playsinline aria-hidden="true" poster="interior/fallback-image.webp">
             <source src="https://vathani-builders.s3.amazonaws.com/2949519-uhd_2560_1440_30fps.mp4" type="video/mp4">
             Your browser does not support the video tag. Explore our projects below.
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title"><span>Vathani</span> <span>Builders</span></h1>
-                <p class="hero-subtitle">Crafting Luxurious Dreams with Elegance Since 2007</p>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="18">0</span>
-                        <span class="stat-label">Years of Excellence</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="150">0</span>
-                        <span class="stat-label">Projects Completed</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="100">0</span>
-                        <span class="stat-label">Client Satisfaction</span>
-                    </div>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary" role="button">Explore Projects</a>
-                    <a href="#contact" class="btn btn-secondary" role="button">Get a Quote</a>
-                </div>
+            <h1 class="hero-title">Vathani Builders</h1>
+            <p class="hero-subtitle">Luxury Homes with Elegance Since 2007</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" role="button">Explore Projects</a>
+                <a href="#contact" class="btn btn-secondary" role="button">Get a Quote</a>
             </div>
-        </div>
-        <div class="scroll-indicator" aria-hidden="true">
-            <div class="scroll-arrow"></div>
         </div>
     </section>
 
@@ -150,78 +80,14 @@
         <div class="container">
             <div class="section-header">
                 <h2>About Us</h2>
-                <p>Building dreams with a touch of luxury</p>
+                <p>Building dreams with luxury and care</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Our Story</h3>
-                    <p>Since 2007, Vathani Builders has redefined luxury construction in Chennai, blending unparalleled craftsmanship with a passion for creating timeless spaces. Our team transforms your vision into reality with elegance, precision, and a sprinkle of charm.</p>
-                    <div class="about-features">
-                        <div class="feature-item">
-                            <i class="fas fa-heart" aria-hidden="true"></i>
-                            <div>
-                                <h4>Client-First Philosophy</h4>
-                                <p>Your vision drives our mission</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                            <div>
-                                <h4>Uncompromising Quality</h4>
-                                <p>Excellence in every detail</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-gem" aria-hidden="true"></i>
-                            <div>
-                                <h4>Luxury Expertise</h4>
-                                <p>18+ years of premium projects</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>Since 2007, Vathani Builders has been Chennai's premier choice for luxury construction, delivering exceptional homes and commercial spaces with a focus on quality and elegance.</p>
                 </div>
                 <div class="about-image">
-                    <img src="interior/WhatsApp Image 2025-07-23 at 6.45.23 PM.webp" alt="Vathani Builders team working on a luxury project" class="about-img" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Process Section -->
-    <section id="process" class="process" role="region" aria-label="Our process section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Process</h2>
-                <p>From vision to victory, with elegance</p>
-            </div>
-            <div class="process-timeline">
-                <div class="process-step" data-step="1">
-                    <div class="process-icon">
-                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
-                    </div>
-                    <h3>01. Consultation</h3>
-                    <p>We listen to your dreams and craft a bespoke plan.</p>
-                </div>
-                <div class="process-step" data-step="2">
-                    <div class="process-icon">
-                        <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
-                    </div>
-                    <h3>02. Design & Planning</h3>
-                    <p>Our architects create stunning, detailed blueprints.</p>
-                </div>
-                <div class="process-step" data-step="3">
-                    <div class="process-icon">
-                        <i class="fas fa-hammer" aria-hidden="true"></i>
-                    </div>
-                    <h3>03. Construction</h3>
-                    <p>Master craftsmen bring your vision to life.</p>
-                </div>
-                <div class="process-step" data-step="4">
-                    <div class="process-icon">
-                        <i class="fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                    <h3>04. Completion</h3>
-                    <p>We deliver your masterpiece with a final walkthrough.</p>
+                    <img src="interior/fallback-image.webp" alt="Vathani Builders project" class="about-img" loading="lazy">
                 </div>
             </div>
         </div>
@@ -232,7 +98,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Our Services</h2>
-                <p>Luxury solutions tailored to you</p>
+                <p>Tailored solutions for your vision</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -240,84 +106,21 @@
                         <i class="fas fa-home" aria-hidden="true"></i>
                     </div>
                     <h3>Residential Construction</h3>
-                    <p>Bespoke homes crafted with elegance and precision.</p>
+                    <p>Bespoke homes with timeless elegance.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-building" aria-hidden="true"></i>
                     </div>
                     <h3>Commercial Projects</h3>
-                    <p>Iconic spaces designed for business success.</p>
+                    <p>Spaces designed for business excellence.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush" aria-hidden="true"></i>
                     </div>
                     <h3>Interior Design</h3>
-                    <p>Luxurious interiors that reflect your unique style.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-tools" aria-hidden="true"></i>
-                    </div>
-                    <h3>Renovation</h3>
-                    <p>Transform spaces with creativity and finesse.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-drafting-compass" aria-hidden="true"></i>
-                    </div>
-                    <h3>Architectural Planning</h3>
-                    <p>Innovative designs for visionary projects.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-project-diagram" aria-hidden="true"></i>
-                    </div>
-                    <h3>Project Management</h3>
-                    <p>Seamless execution with meticulous oversight.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="team" role="region" aria-label="Team section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Meet Our Team</h2>
-                <p>The artisans behind your dreams</p>
-            </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <img src="team/leader1.webp" alt="John Doe, Lead Architect" class="team-img" loading="lazy">
-                    <h3>John Doe</h3>
-                    <p class="team-role">Lead Architect</p>
-                    <p>With 20 years of experience, John designs iconic spaces.</p>
-                    <div class="team-social">
-                        <a href="#" aria-label="John's LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="John's Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <img src="team/manager1.webp" alt="Jane Smith, Project Manager" class="team-img" loading="lazy">
-                    <h3>Jane Smith</h3>
-                    <p class="team-role">Project Manager</p>
-                    <p>Jane ensures flawless execution of every project.</p>
-                    <div class="team-social">
-                        <a href="#" aria-label="Jane's LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Jane's Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <img src="team/designer1.webp" alt="Emily Brown, Interior Designer" class="team-img" loading="lazy">
-                    <h3>Emily Brown</h3>
-                    <p class="team-role">Interior Designer</p>
-                    <p>Emily crafts luxurious, personalized interiors.</p>
-                    <div class="team-social">
-                        <a href="#" aria-label="Emily's LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Emily's Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
+                    <p>Luxurious interiors that inspire.</p>
                 </div>
             </div>
         </div>
@@ -328,173 +131,27 @@
         <div class="container">
             <div class="section-header">
                 <h2>Our Projects</h2>
-                <p>A showcase of luxury and craftsmanship</p>
-            </div>
-            <div class="filter-tabs" role="tablist">
-                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
-                <button class="filter-btn" data-filter="ongoing" role="tab" aria-selected="false">Ongoing</button>
-                <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">Completed</button>
+                <p>Showcasing our craftsmanship</p>
             </div>
             <div class="projects-grid">
-                <div class="project-card" data-category="ongoing">
+                <div class="project-card">
                     <div class="project-image">
-                        <img src="ongoing_projects/ongoing1.webp" alt="Luxury 4BHK villa under construction in Chennai" class="project-img" loading="lazy">
-                        <div class="project-overlay">
-                            <div class="project-status">20% Complete</div>
-                            <button class="view-btn" data-project="villa" aria-label="View 3D project">View in 3D</button>
-                        </div>
+                        <img src="ongoing_projects/ongoing1.webp" alt="Luxury villa in Chennai" class="project-img" loading="lazy">
                     </div>
                     <div class="project-content">
                         <h3>Luxury Villa</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chennai, Tamil Nadu</p>
-                        <p>A stunning 4BHK villa with modern amenities.</p>
-                        <div class="project-progress">
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 20%"></div>
-                            </div>
-                        </div>
+                        <p>A stunning 4BHK villa in Chennai.</p>
                     </div>
                 </div>
-                <div class="project-card" data-category="ongoing">
-                    <div class="project-image">
-                        <img src="ongoing_projects/ongoing2.webp" alt="4BHK duplex under construction in Chengalpattu" class="project-img" loading="lazy">
-                        <div class="project-overlay">
-                            <div class="project-status">60% Complete</div>
-                            <button class="view-btn" data-project="duplex" aria-label="View 3D project">View in 3D</button>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>4BHK Duplex</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chengalpattu, Tamil Nadu</p>
-                        <p>Spacious duplex with premium finishes.</p>
-                        <div class="project-progress">
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 60%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="completed">
+                <div class="project-card">
                     <div class="project-image">
                         <img src="exterior/Yellow-house.webp" alt="Modern family home in Mumbai" class="project-img" loading="lazy">
-                        <div class="project-overlay">
-                            <button class="view-btn" data-project="family-home" aria-label="View 3D project">View in 3D</button>
-                        </div>
                     </div>
                     <div class="project-content">
                         <h3>Modern Family Home</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, Maharashtra</p>
-                        <p>A cozy 3-bedroom home with contemporary design.</p>
+                        <p>A cozy 3-bedroom home in Mumbai.</p>
                     </div>
                 </div>
-                <div class="project-card" data-category="completed">
-                    <div class="project-image">
-                        <img src="commercial/6e99bf2c10c4edf24f5a2640d2cefa10.webp" alt="Office building in Chennai" class="project-img" loading="lazy">
-                        <div class="project-overlay">
-                            <button class="view-btn" data-project="office" aria-label="View 3D project">View in 3D</button>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Office Building</h3>
-                        <p class="project-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Chennai, Tamil Nadu</p>
-                        <p>Modern commercial space for businesses.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="show-more-container">
-                <a href="all-projects.html" target="_blank" class="btn-show-more" role="button">
-                    <i class="fas fa-plus-circle" aria-hidden="true" style="margin-right: 8px;"></i>
-                    More Projects (50+)
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 3D Project Modal -->
-    <div class="project-modal" id="projectModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
-        <div class="modal-content">
-            <span class="modal-close" aria-label="Close modal">&times;</span>
-            <h2 id="modalTitle">Project 3D View</h2>
-            <div id="threeJsCanvas"></div>
-        </div>
-    </div>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery" role="region" aria-label="Project gallery section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Project Gallery</h2>
-                <p>Immerse in our craftsmanship</p>
-            </div>
-            <div class="gallery-filter" role="tablist">
-                <button class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
-                <button class="gallery-filter-btn" data-filter="exterior" role="tab" aria-selected="false">Exterior</button>
-                <button class="gallery-filter-btn" data-filter="interior" role="tab" aria-selected="false">Interior</button>
-                <button class="gallery-filter-btn" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
-            </div>
-            <div class="moving-gallery-container">
-                <div class="gallery-row row-1">
-                    <div class="gallery-item" data-category="exterior">
-                        <div class="category-tag">Exterior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&h=200&fit=crop" alt="Modern house exterior" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn" aria-label="Zoom image"><i class="fas fa-search-plus" aria-hidden="true"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Modern House</h3>
-                                <p>Timeless elegance</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="interior">
-                        <div class="category-tag">Interior</div>
-                        <div class="gallery-image">
-                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop" alt="Luxury living room" class="gallery-img" loading="lazy">
-                            <div class="gallery-overlay">
-                                <button class="zoom-btn" aria-label="Zoom image"><i class="fas fa-search-plus" aria-hidden="true"></i></button>
-                            </div>
-                            <div class="gallery-info">
-                                <h3>Luxury Living Room</h3>
-                                <p>Opulent interiors</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more gallery items as needed -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials" role="region" aria-label="Testimonials section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Love</h2>
-                <p>Hear from our delighted clients</p>
-            </div>
-            <div class="testimonials-carousel" role="region" aria-label="Testimonials carousel">
-                <div class="testimonial-card active" data-index="0">
-                    <div class="testimonial-content">
-                        <div class="stars-container" aria-label="5 star rating">
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                            <i class="fas fa-star" aria-hidden="true"></i>
-                        </div>
-                        <p class="testimonial-text">"Vathani Builders crafted our dream home with unmatched elegance and care!"</p>
-                        <div class="testimonial-author">
-                            <h4>Charles & Punitha</h4>
-                            <span>Chennai, Tamil Nadu</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more testimonial cards as needed -->
-            </div>
-            <div class="testimonial-navigation">
-                <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous testimonial"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
-                <button class="nav-btn next-btn" id="nextBtn" aria-label="Next testimonial"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
             </div>
         </div>
     </section>
@@ -503,42 +160,25 @@
     <section id="contact" class="contact" role="region" aria-label="Contact section">
         <div class="container">
             <div class="section-header">
-                <h2>Let's Connect</h2>
-                <p>Start your luxury project today</p>
+                <h2>Contact Us</h2>
+                <p>Start your dream project today</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Contact Us</h3>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        <div>
-                            <h4>Address</h4>
-                            <p>No:42, Earikarai Street, Pallikaranai, Chennai 600100</p>
-                        </div>
+                        <p>No:42, Earikarai Street, Pallikaranai, Chennai 600100</p>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone" aria-hidden="true"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 88381 15756</p>
-                        </div>
+                        <p>+91 88381 15756</p>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>vathaniinteriors2009@gmail.com</p>
-                        </div>
+                        <p>vathaniinteriors2009@gmail.com</p>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <h3>Send a Message</h3>
-                    <div id="successMessage" class="success-message" role="alert">
-                        Message sent successfully! We'll be in touch soon.
-                    </div>
-                    <div id="errorMessage" class="error-message" role="alert">
-                        Failed to send message. Please try again.
-                    </div>
                     <form id="contactForm" aria-label="Contact form">
                         <div class="form-group">
                             <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Name">
@@ -547,12 +187,9 @@
                             <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Email">
                         </div>
                         <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="Your Phone" required aria-label="Phone number">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-label="Message"></textarea>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required aria-label="Message"></textarea>
-                        </div>
-                        <button type="submit" id="submitBtn" class="btn btn-primary" aria-label="Submit form">Send Message</button>
+                        <button type="submit" class="btn btn-primary" aria-label="Submit form">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -562,67 +199,18 @@
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <div class="logo-icon">
-                            <i class="fas fa-home" aria-hidden="true"></i>
-                        </div>
-                        <div class="logo-text">
-                            <h3>Vathani Builders</h3>
-                            <span>Since 2007</span>
-                        </div>
-                    </div>
-                    <p>Crafting luxury with elegance and care.</p>
-                    <div class="social-links" aria-label="Social media links">
-                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul aria-label="Quick links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <div class="footer-contact" aria-label="Contact information">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            <p>No:42, Earikarai Street, Pallikaranai, Chennai 600100</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                            <p>+91 88381 15756</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <p>vathaniinteriors2009@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2025 Vathani Builders. All rights reserved. | Designed by Hatten Technologies</p>
-            </div>
+            <p>© 2025 Vathani Builders. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/918838115756" class="whatsapp-float" id="whatsapp-button" target="_blank" aria-label="Contact us on WhatsApp">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918838115756" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
         <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
 
     <!-- Custom Cursor -->
     <div class="custom-cursor"></div>
 
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
